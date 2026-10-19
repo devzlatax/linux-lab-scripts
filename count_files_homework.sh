@@ -6,7 +6,7 @@
 # I added this comment
 
 # Comment for test how branches work
-# Add comment to branch feature-update and then merge both branches!!
+# Add comment to branch feature-update and push it!!
 
 TARGET_DIR="${1:-/etc}"
 
