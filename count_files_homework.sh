@@ -2,6 +2,9 @@
 
 # Модифікація скрипта
 
+# This file with changes !!
+# I added this comment
+
 TARGET_DIR="${1:-/etc}"
 
 if [ ! -d "$TARGET_DIR" ]; then
