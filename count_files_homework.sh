@@ -7,6 +7,7 @@
 
 # Comment for test how branches work
 # Add comment to branch feature-update and push it!!
+# Add comment only for test (main)
 
 TARGET_DIR="${1:-/etc}"
 
