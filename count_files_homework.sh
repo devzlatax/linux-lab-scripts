@@ -5,6 +5,8 @@
 # This file with changes !!
 # I added this comment
 
+# Comment for test how branches work
+
 TARGET_DIR="${1:-/etc}"
 
 if [ ! -d "$TARGET_DIR" ]; then
