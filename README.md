@@ -1,9 +1,8 @@
-# Linux Lab2-3
+# Linux Lab Scripts
 
-Bash script and notes for the lab work in the "System Programming and Operating System Administration" course.
+Bash scripts and notes for the laboratory works in the "System Programming and Operating System Administration" course.
 
-## About 
-This repository contains a small tool that gathers statistics about a directory on a Linux system: how many regular files, subdirectories and symbolic links it has, how many files have a given extension and how much disk space the files take up in total.
+## Lab 2-3
 
 ## Content
 
