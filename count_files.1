@@ -1,0 +1,52 @@
+.TH COUNT_FILES 1 "October 2026" "count-files 2.0" "User Commands"
+.SH NAME
+count_files \- count files in a directory
+.SH SYNOPSIS
+.B count_files [directory]
+.br
+.B count_files \-h
+
+.SH DESCRIPTION
+Counts regular files, directories and symbolic links in a directory and all its subdirectories.
+Also counts files with a given extension and shows the total size of the files and
+the biggest file.
+.PP
+The extension is entered by the user when the program starts.
+.SH OPTIONS
+.TP
+.B \-h
+Show help.
+.SH FILES
+.TP
+.I /etc/count_files.conf
+Configuration file. The variable DEFAULT_DIR sets the default directory.
+
+.SH EXAMPLES
+Count files in the default directory:
+.PP
+.nf
+count_files
+.fi
+.PP
+Count files in the given directory:
+.PP
+.nf
+count_files /var/log
+.fi
+.PP
+Show help:
+.PP
+.nf
+count_files \-h
+.fi
+.SH EXIT STATUS
+.TP
+.B 0
+The program finished successfully.
+.TP
+.B 1
+The specified directory doesn't exist.
+
+.SH AUTHOR
+Zlata Zadumina
+
