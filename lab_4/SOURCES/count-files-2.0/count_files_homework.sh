@@ -36,7 +36,7 @@ extra_files=$(find "$TARGET_DIR" -type f -name "*.$EXTRA" 2>/dev/null | wc -l)
 
 total=$(find "$TARGET_DIR" -type f -printf '%s\n' 2>/dev/null | awk '{sum+=$1} END {print sum+0}')
 
-largest_file=$(find "$TARGET_DIR" -type f -printf '$s %p\n' 2>/dev/null | sort -nr | head -1)
+largest_file=$(find "$TARGET_DIR" -type f -printf '%s %p\n' 2>/dev/null | sort -nr | head -1)
 
 echo "Статистика директорії $TARGET_DIR:"
 echo "  Звичайні файли: $files"
